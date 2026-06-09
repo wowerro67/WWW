@@ -1,0 +1,20 @@
+# Biblioteki (pobierają się same przez npm install, nie pchamy ich na GitHub)
+node_modules/
+.pnp
+.pnp.js
+
+# Budowanie projektu
+/build
+/dist
+
+# Pliki systemowe i lokalne konfiguracje
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ciężkie, surowe pliki graficzne 3D (ich też nie chcemy w kodzie źródłowym)
+*.Fbx
+*.zip
+*.rar
